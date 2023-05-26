@@ -1,0 +1,35 @@
+body{     
+    background: rgb(9, 18, 43); 
+    background: linear-gradient(136deg, rgba(9, 18, 43, 1) 17%, rgba(32, 61, 140, 1) 75%); 
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.transparent-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: transparent;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+}
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+}
